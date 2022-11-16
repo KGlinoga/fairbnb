@@ -18,3 +18,12 @@ code {
   box-shadow:0px 1px 8px rgb(202, 196, 196);
   width: 100%;
 }
+
+.hero {
+  padding: 1em;
+}
+
+.hero > img {
+  padding: .5em;
+}
+
