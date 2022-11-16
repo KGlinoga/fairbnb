@@ -8,7 +8,14 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Hero /> */}
-      <Card />
+      <section className="cards-list">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </section>
     </div>
   );
 }

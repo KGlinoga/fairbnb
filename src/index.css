@@ -27,7 +27,33 @@ code {
   padding: .5em;
 }
 
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x:auto;
+  padding: 1em;
+}
+
+.card {
+  max-width: 300px;
+}
+
+.thumbnail {
+  max-width: 275px;
+  border-radius: 12px;
+}
+
 .card--stats {
   display: flex;
   align-items: center;
 }
+
+#location {
+  margin-left: 5px;
+}
+
+.bold {
+  font-weight: bold;
+}
+

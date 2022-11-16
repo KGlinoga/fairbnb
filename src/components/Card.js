@@ -4,13 +4,18 @@ import { AiFillStar } from "react-icons/ai"
 export default function Card() {
     return (
         <section className="card">
-            <img />
+            <img src="./images/pic.jpg" alt="lady" className="thumbnail"/>
 
             <div className="card--stats">
-                <AiFillStar color="hotpink"/>
-                <p>5 • </p>
-                <p>Online</p>
+                <AiFillStar color="hotpink" className="card--star" />
+                <p id="rating">5</p>
+                <p id="review-count">(10) • </p>
+                <p id="location">Online</p>
             </div>
+            <p id="title">Life Lessons with Kassian Andor</p>
+            <p id="price">
+                <span className="bold">From $123</span> / person
+            </p>
         </section>
     )
 }
