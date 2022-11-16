@@ -27,3 +27,7 @@ code {
   padding: .5em;
 }
 
+.card--stats {
+  display: flex;
+  align-items: center;
+}
