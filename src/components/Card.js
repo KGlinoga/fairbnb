@@ -1,7 +1,9 @@
 import React from "react"
 import { AiFillStar } from "react-icons/ai"
 
-export default function Card() {
+export default function Card(props) {
+    
+
     return (
         <section className="card">
             <img src="./images/pic.jpg" alt="lady" className="thumbnail"/>
