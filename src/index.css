@@ -21,11 +21,13 @@ code {
 
 .hero {
   padding: 1em;
- 
+
 }
 
 .hero > img {
-  padding: .5em;
+  padding: 2em;
+  width: 80%;
+  
 }
 
 .cards-list {
