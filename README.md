@@ -9,8 +9,9 @@ Coded by Kristina Glinoga
 - props
 - CSS
 - JavaScript
+- Amazon Web Services 
 
-Hosted on AWS! 
+I am hosting this site on my AWS! 
 
 ## About
 
